@@ -1,0 +1,38 @@
+name = One page CV theme
+description = This is a theme for One Page CV websites.
+engine = phptemplate
+core = 7.x
+
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = js/fancybox/jquery.fancybox-1.3.4.css
+
+scripts[] = js/jquery_003.js
+scripts[] = js/fancybox/jquery.mousewheel-3.0.4.pack.js
+scripts[] = js/fancybox/jquery.fancybox-1.3.4.pack.js
+scripts[] = js/opcv.js
+scripts[] = js/smoothscroll.js
+
+regions[header] = Header
+
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+
+regions[sidebar_first] = Sidebar first
+
+regions[content]  = Content
+
+regions[featured_projects] = Featured Projects
+regions[work] = Work
+regions[about] = About
+regions[contact] = Contact
+
+regions[footer] = Footer
+; Information added by drupal.org packaging script on 2013-10-01
+version = "7.x-1.0+2-dev"
+core = "7.x"
+project = "onepagecv"
+datestamp = "1380596211"
+
